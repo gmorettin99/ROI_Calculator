@@ -1,0 +1,10 @@
+.input-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px 24px}
+.input-grid label{font-size:12.5px;font-weight:700;color:var(--ink-2);display:flex;flex-direction:column;gap:6px}
+.input-grid input,.input-grid select{font-family:var(--sans);font-size:14px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+.input-grid input:focus,.input-grid select:focus{outline:none;border-color:var(--brand)}
+table.ctab input{width:90px;font-family:var(--sans);font-size:13px;padding:5px 8px;border:1px solid var(--line);border-radius:8px}
+.action-btn{font-family:var(--head);font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:14px 28px;border-radius:var(--radius-pill);border:none;cursor:pointer}
+#confirmBtn{background:var(--brand);color:#fff}
+#exportBtn{background:var(--ink);color:#fff}
+.hidden{display:none !important}
+@media (max-width:720px){.input-grid{grid-template-columns:1fr}}
